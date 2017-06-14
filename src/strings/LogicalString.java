@@ -10,17 +10,21 @@ public class LogicalString {
 		}
 		else
 		{
-			
+			for(int i=0;i<end.length();i++)
+			{
+				String newstring=end.substring(0, i)+end.substring(i+1);
+			//	System.out.println("First : "+begin+end.charAt(i));
+			//	System.out.println("New String : "+newstring);
+				permute(begin+end.charAt(i),newstring);
+			}
 		}
 	}
 
 	public static void main(String[] args) {
 		
-		System.out.println("HAI HELLO");
-		
 		// permutation of a string
 		
-		String str = "abc";
+		String str = "navin";
 		permute("",str);
 		
 		
