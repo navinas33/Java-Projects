@@ -1,7 +1,7 @@
 package numbers;
 
 public class LeastMultiple {
-	
+	/*
 	public static int gcd(int a, int b){
 	    if (a<b) return gcd(b,a);
 	    if (a%b==0) return b;
@@ -21,8 +21,23 @@ public class LeastMultiple {
 
 	public static void main(String[] args) {
 		int array[]={1,2,3,4,5};
-		
+		long var=lcmofarray(array,array[0] , array[4]);
+		System.out.println(var);
 
+*/	
+	
+	public static void main(String[] args) throws ArithmeticException {
+		int a=5;
+		
+		try
+		{
+			int b=a/0;
+		}
+		catch(Exception e)
+		{
+			System.out.println("asd");
+		}
+		
 	}
 
 }

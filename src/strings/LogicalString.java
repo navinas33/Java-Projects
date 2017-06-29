@@ -24,7 +24,9 @@ public class LogicalString {
 		
 		// permutation of a string
 		
-		String str = "navin";
+		//String str = "abcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()-+_={}:'<>,.?/";
+		String str = "abcdefghijkl";
+		System.out.println(str);
 		permute("",str);
 		
 		
