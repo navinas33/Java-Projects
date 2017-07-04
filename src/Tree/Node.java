@@ -3,15 +3,12 @@ package Tree;
 import java.util.ArrayList;
 
 public class Node {
-	
 	String id;
 	ArrayList<Node> children = new ArrayList<>();
 	Node parent;
-	
-	public Node getRoot()
-	{
-		if(parent == null)
-		{
+
+	public Node getRoot() {
+		if(parent == null) {
 			return this;
 		}
 		return parent.getRoot();
